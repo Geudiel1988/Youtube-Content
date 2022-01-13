@@ -1,4 +1,4 @@
-![name-of-you-image](https://github.com/codeBaron66/Youtube-Content/blob/master/HTML/html%20basics%201/guitar.jpeg)
+![name-of-you-image](https://github.com/codeBaron66/Youtube-Content/blob/master/HTML/html%20basics%201/Web%20Dev%20Nick(1).jpg?raw=true)
 
 # Web Dev Nick's Youtube-Content
 
