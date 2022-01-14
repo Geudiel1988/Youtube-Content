@@ -1,0 +1,44 @@
+html, body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/*Navigation*/
+nav{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /*Landing*/
+  #landing{
+    height: 100vh;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2017%2F11%2F23%2F447700-bridge-cityscape-city-lights-night-New_York_City.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-position: center;
+}
