@@ -1,4 +1,4 @@
-html, body{
+body{
     font-family: 'Oswald', sans-serif;
     margin:0;
     padding:0;
@@ -19,26 +19,62 @@ ul {
     background-color: #333;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+li {
+  float: left;
+}
 
-  /*Landing*/
-  #landing{
-    height: 100vh;
-    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2017%2F11%2F23%2F447700-bridge-cityscape-city-lights-night-New_York_City.jpg&f=1&nofb=1");
-    background-size: cover;
-    background-position: center;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/*Landing*/
+#landing{
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2017%2F11%2F23%2F447700-bridge-cityscape-city-lights-night-New_York_City.jpg&f=1&nofb=1");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#landing h1{
+  font-size: 5em;
+  margin: 0;
+}
+#landing h2{
+  font-size: 2em;
+  color:#e6e6e6;
+}
+#landing h1, h2{
+  padding: 0 50px;
+}
+.buttons{
+  text-decoration: none;
+  background:#04aa6d;
+  font-size: 30px;
+  border-radius: 12px;
+  padding: 3px 20px;
+  color: white;
+  margin-top: 30px;
+  border: none;
+}
+
+/* About Section */
+#about{
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+.fa-accusoft{
+  margin: 80px 0 40px 0;
+  font-size: 50px;
 }
