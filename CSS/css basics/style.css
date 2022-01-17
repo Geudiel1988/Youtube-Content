@@ -11,12 +11,13 @@ body{
     position: relative;
     top: 100px;
     border-radius: 15px;
+    overflow: hidden;
 }
 h1{
     color: blue;
     font-size: 4em;
-    position: absolute;
+    /* position: absolute;
     margin: 0;
     top: 150px;
-    left: 50px;
+    left: 50px; */
 }
