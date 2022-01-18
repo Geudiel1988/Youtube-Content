@@ -14,13 +14,13 @@ h1{
     margin-top: 2em;
 }
 p{
-    margin: 5em 0 0 2em;
+    margin: 5em 2em;
     
 }
-#guitar{
-    width: 60vw;
+#pic{
+    width: 90vw;
     display: block;
-    margin: 3em auto;
+    margin: 8.7em auto;
 }
 footer{
     background-color: black;
@@ -29,7 +29,6 @@ footer{
     justify-content: space-between;
     align-items: baseline;
 }
-margin-top: 3em;
 form{
     text-align: center;
     margin-bottom: 3em;
