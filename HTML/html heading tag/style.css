@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2em;
+}
+p{
+    margin: 5em 0 0 2em;
+    
+}
+#guitar{
+    width: 60vw;
+    display: block;
+    margin: 3em auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+margin-top: 3em;
+form{
+    text-align: center;
+    margin-bottom: 3em;
+}
+span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-left: 1.5em;
+}
+.ic{
+    font-size: 1.3em;
+    padding-right: 2em;
+}
