@@ -1,9 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    height: 100vh;
     width: 100vw;
+    max-width: 100%;
     margin: 0;
     font-family: Arial;
-    box-sizing: border-box;
 }
 
 h1{
@@ -16,10 +19,27 @@ p{
 }
 #guitar{
     width: 60vw;
-    margin: 4em;
+    display: block;
+    margin: 3em auto;
 }
 footer{
     background-color: black;
     color: white;
-    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+margin-top: 3em;
+form{
+    text-align: center;
+    margin-bottom: 3em;
+}
+span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-left: 1.5em;
+}
+.ic{
+    font-size: 1.3em;
+    padding-right: 2em;
 }
