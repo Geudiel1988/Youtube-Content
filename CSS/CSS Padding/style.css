@@ -1,0 +1,23 @@
+body{
+    background-color:ghostwhite;
+    height: 100vh;
+}
+#container{
+    height: 70vh;
+    width: 70vw;
+    max-width: 700px;
+    background-image: linear-gradient(to bottom right, rgb(185, 255, 153), rgb(150, 255, 102));
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+h1{
+    color: blue;
+    font-size: 4em;
+    /* position: absolute;
+    margin: 0;
+    top: 150px;
+    left: 50px; */
+}
