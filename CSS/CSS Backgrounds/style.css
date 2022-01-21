@@ -1,5 +1,52 @@
+*{
+  box-sizing: border-box;
+}
 
+body{
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-image: url("https://assets.epicurious.com/photos/55e4c39fcf90d6663f727a74/4:6/w_2296,h_3444,c_limit/shutterstock_209917372.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+h1{
+  text-align: center;
+  margin-top: 2em;
+  background-color: royalblue;
+}
+p{
+  margin: 2em 2em;
+}
+#pic{
+  width: 75vw;
+  display: block;
+  margin: 1.7em auto;
+}
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+form{
+  text-align: center;
+  margin-bottom: 3em;
+  
+}
+span{
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-left: 1.5em;
+}
+.ic{
+  font-size: 1.3em;
+  padding-right: 2em;
+}
 
 
 
